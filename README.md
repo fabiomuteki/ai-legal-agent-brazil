@@ -37,7 +37,7 @@ npx skills add fabiomuteki/ai-legal-agent-brazil
 
 ## Aviso
 
-Este agente fornece **informação jurídica**, não aconselhamento jurídico formal. Não substitui advogado habilitado na OAB. Para contratos de alto valor ou litígios, consulte sempre um profissional.
+Este agente fornece **informação jurídica**, não aconselhamento jurídico formal. Não substitui advogado habilitado na OAB. Para contratos de alto risco (múltiplas cláusulas críticas, impacto societário ou valor elevado) ou litígios, consulte sempre um profissional.
 
 ---
 
