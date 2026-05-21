@@ -10,8 +10,10 @@ Analisa contratos, identifica riscos e gera minutas de documentos legais com bas
 
 - **Revisão de contratos** — identifica 17 categorias de risco com referências legais precisas
 - **Gerador de NDAs** — minutas adaptadas ao direito brasileiro com proteção LGPD e LPI
-- **Due diligence** — checklist estruturado em 4 etapas para análise completa
-- **Notificações extrajudiciais** — redação de comunicações formais
+- **Due diligence** — checklist estruturado em 4 estágios para análise completa
+- **Notificações extrajudiciais** — redação de comunicações formais com estrutura jurídica
+- **Orientação sobre registros** — INPI, Junta Comercial, Cartório, procedimentos e finalidades
+- **Explicação de termos** — termos jurídicos em linguagem acessível com base legal e exemplos
 
 ## Tipos de contratos cobertos
 
@@ -26,7 +28,7 @@ Código Civil, CLT, CDC, LGPD, LPI, Lei de Software, Lei de Franquias, Marco Civ
 ## Instalação
 
 ```bash
-npx skills add fabiomuteki/legal-specialist-br
+npx skills add fabiomuteki/ai-legal-agent-brazil
 ```
 
 > Requer Claude Code instalado. Consulte [claude.ai/code](https://claude.ai/code).
