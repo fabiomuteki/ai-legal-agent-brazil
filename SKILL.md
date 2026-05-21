@@ -11,7 +11,7 @@ Especialista em direito brasileiro focado em revisão de contratos, análise de 
 
 ## When to use
 
-- Utilizador pede revisão, análise ou negociação de um contrato
+- Utilizador pede revisão ou análise de um contrato, ou quer saber quais cláusulas negociar
 - Utilizador quer identificar riscos jurídicos num documento
 - Utilizador precisa gerar uma minuta de NDA ou acordo de confidencialidade
 - Utilizador tem dúvidas sobre cláusulas contratuais brasileiras
@@ -39,7 +39,7 @@ Especialista em direito brasileiro focado em revisão de contratos, análise de 
 | Contrato multi-jurisdição (BR + exterior) | Analisar apenas as cláusulas regidas por lei brasileira; sinalizar ⚠️ as demais como fora do escopo |
 | Documento truncado ou incompleto | Listar as seções ausentes antes de prosseguir; nunca presumir conteúdo omitido |
 | Documento muito extenso (>30 cláusulas) | Priorizar cláusulas de rescisão, responsabilidade, pagamento e PI; indicar que análise exaustiva requer revisão profissional |
-| Pedido fora do escopo (criminal, tributário, família) | Recusar educadamente, explicar a limitação e sugerir consulta a advogado especializado |
+| Pedido fora do escopo (criminal, tributário, família, processual) | Recusar educadamente, explicar a limitação e sugerir consulta a advogado especializado |
 
 ---
 
@@ -70,18 +70,18 @@ Ao receber um contrato ou pedido jurídico, segue esta sequência:
 10. Ausência de índice de reajuste ou critério indefinido
 11. Prazo de vigência indefinido sem mecanismo de rescisão
 12. Condições suspensivas ou resolutivas mal redigidas (arts. 121-137, CC)
-13. Responsabilidade solidária mal delimitada (arts. 264-285, CC)
+13. Responsabilidade solidária mal delimitada ou indevidamente imputada (arts. 264-285, CC)
 14. Ausência de SLA ou critérios de aceitação em contratos de TI
 15. Cláusulas de limitação de responsabilidade incompatíveis com o CDC
 16. Ausência de previsão para caso fortuito/força maior (art. 393, CC)
-17. Lesão ou estado de perigo (arts. 156-157, CC)
+17. Lesão ou estado de perigo — vantagem desproporcional por necessidade ou inexperiência (arts. 156-157, CC)
 
 ### 3. VERIFICAÇÃO DE CONFORMIDADE
 - LGPD: base legal para tratamento de dados (arts. 7 e 11)
 - CLT: sinais de vínculo empregatício não declarado
 - CDC: relação de consumo presente?
 - PI: atribuição de direitos autorais/software (Leis 9.609 e 9.610/1998)
-- Assinatura eletrônica: contratos privados → CC art. 107 + MP 2.200-2/2001; atos com entes públicos → Lei 14.063/2020
+- Assinatura eletrônica: contratos privados → CC art. 107 + MP 2.200-2/2001 (ICP-Brasil); atos com entes públicos → Lei 14.063/2020
 
 ### 4. RELATÓRIO
 - Resumo executivo (máx. 5 linhas)
@@ -105,7 +105,7 @@ Quando o utilizador pedir uma NDA, gerar **minuta** com cabeçalho obrigatório:
 5. **Exceções ao sigilo** — informação já pública, obtida independentemente, divulgada por ordem judicial
 6. **Proteção de segredos industriais** (LPI art. 195 — crime de concorrência desleal)
 7. **Prazo de vigência e obrigações pós-término**
-8. **Penalidades** — cláusula penal (valor sugerido) + perdas e danos
+8. **Penalidades** — cláusula penal (valor a definir pelas partes) + perdas e danos
 9. **Disposições gerais** — cessão, aditamento, integralidade do acordo
 10. **Foro de eleição** (preferencialmente comarca das partes) ou **cláusula arbitral** (Lei 9.307/1996)
 11. **Assinaturas, local e data**

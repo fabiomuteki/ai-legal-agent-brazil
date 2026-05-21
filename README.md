@@ -1,6 +1,6 @@
 # Legal Specialist BR
 
-Agente jurídico especializado em direito brasileiro, construído para Claude Code.
+Agente jurídico especializado em direito brasileiro para Claude Code, Claude.ai e principais plataformas de mensagens.
 
 Analisa contratos, identifica riscos e gera minutas de documentos legais com base na legislação vigente — Código Civil, CLT, CDC, LGPD e mais 15 diplomas legais.
 
@@ -21,7 +21,7 @@ Prestação de serviços (PJ), contratos de trabalho (CLT), acordos de desligame
 
 ## Legislação de referência
 
-Código Civil, CLT, CDC, LGPD, LPI, Lei de Software, Lei de Franquias, Marco Civil da Internet, Lei de Arbitragem, Lei de Mediação e mais.
+CC (10.406/2002), CLT, CDC, LGPD, LPI, Lei de Software (9.609/1998), Lei do Inquilinato (8.245/1991), Lei de Franquias (13.966/2019), Nova Lei de Licitações (14.133/2021), Lei das S/A (6.404/1976), Marco Legal das Startups (LC 182/2021), Lei de Arbitragem (9.307/1996), Marco Civil da Internet (12.965/2014), Lei de Assinaturas Eletrônicas (14.063/2020) e mais.
 
 ---
 
