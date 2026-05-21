@@ -16,22 +16,32 @@ Saída:        LEGISLACAO_ATUALIZADA.md
 import sys
 import time
 from datetime import date
-from xml.etree import ElementTree as ET
 from pathlib import Path
 
 try:
     import requests
 except ImportError:
-    sys.exit("Instale as dependências: pip install requests")
+    sys.exit("Instale as dependências: pip install requests defusedxml")
+
+# defusedxml protege contra XXE em respostas XML de terceiros.
+# Fallback para stdlib caso não esteja instalado (avisar o usuário).
+try:
+    from defusedxml import ElementTree as ET
+    _DEFUSEDXML = True
+except ImportError:
+    from xml.etree import ElementTree as ET  # type: ignore[assignment]
+    _DEFUSEDXML = False
 
 # ---------------------------------------------------------------------------
 # Configuração
 # ---------------------------------------------------------------------------
 
-SENADO_API = "https://legis.senado.leg.br/dadosabertos/norma/lista"
-LEXML_SRU  = "https://www.lexml.gov.br/busca/SRULocalData"
-TIMEOUT    = 15
-DELAY      = 1.2   # pausa entre requests
+SENADO_API       = "https://legis.senado.leg.br/dadosabertos/norma/lista"
+LEXML_SRU        = "https://www.lexml.gov.br/busca/SRULocalData"
+TIMEOUT          = 15
+DELAY            = 1.2    # pausa entre requests
+MAX_RESPONSE_MB  = 1      # tamanho máximo de resposta aceito (bytes)
+MAX_RESPONSE_BYTES = MAX_RESPONSE_MB * 1024 * 1024
 
 HEADERS = {
     "User-Agent": (
@@ -210,6 +220,14 @@ def _get(url: str, params: dict | None = None) -> requests.Response | None:
     try:
         r = requests.get(url, params=params, headers=HEADERS, timeout=TIMEOUT)
         r.raise_for_status()
+        # Rejeita respostas muito grandes antes de fazer parse
+        content_length = int(r.headers.get("Content-Length", 0))
+        if content_length > MAX_RESPONSE_BYTES:
+            print(f"resposta muito grande ({content_length} bytes)", file=sys.stderr, end=" ")
+            return None
+        if len(r.content) > MAX_RESPONSE_BYTES:
+            print("resposta muito grande", file=sys.stderr, end=" ")
+            return None
         return r
     except requests.exceptions.Timeout:
         print("timeout", file=sys.stderr, end=" ")
@@ -382,6 +400,11 @@ def gerar_markdown(resultados: list[dict]) -> str:
 # ---------------------------------------------------------------------------
 
 def main() -> None:
+    if not _DEFUSEDXML:
+        print(
+            "⚠️  defusedxml não instalado — usando xml.etree (sem proteção XXE).\n"
+            "   Instale com: pip install defusedxml\n"
+        )
     print(f"Verificando {len(LEIS)} leis (Senado → LexML)...\n")
     resultados = []
 
