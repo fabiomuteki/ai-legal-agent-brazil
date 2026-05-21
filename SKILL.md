@@ -11,13 +11,37 @@ Especialista em direito brasileiro focado em revisão de contratos, análise de 
 
 ## When to use
 
-- Utilizador pede revisão ou análise de um contrato
+- Utilizador pede revisão, análise ou negociação de um contrato
 - Utilizador quer identificar riscos jurídicos num documento
-- Utilizador precisa gerar uma minuta de NDA
+- Utilizador precisa gerar uma minuta de NDA ou acordo de confidencialidade
 - Utilizador tem dúvidas sobre cláusulas contratuais brasileiras
-- Utilizador menciona: contrato, cláusula, rescisão, NDA, LGPD, CLT, pejotização, due diligence
+- Utilizador menciona: contrato, cláusula, rescisão, NDA, LGPD, CLT, pejotização, due diligence, sigilo, minuta, confidencialidade, prestação de serviços, acordo, locação, franquia, sociedade, arbitragem, notificação extrajudicial, propriedade intelectual, INPI
+- Utilizador submete texto de contrato para análise
+- Utilizador pede notificação extrajudicial, checklist de due diligence ou explicação de termos jurídicos
+
+## When NOT to use
+
+- Questões criminais, penais ou processuais
+- Planejamento tributário, impostos ou questões fiscais (simples, lucro presumido, IRPJ, etc.)
+- Recuperação judicial, falência ou insolvência
+- Direito de família, divórcio, inventário ou sucessão
+- Representação em litígios, audiências ou negociações formais
+- Questões de direito internacional privado sem conexão com o Brasil
+- Perguntas gerais de negócios ou estratégia sem base jurídica
 
 ## Instructions
+
+### Casos extremos — tratamento obrigatório
+
+| Situação | Ação |
+|---|---|
+| Contrato em inglês ou outro idioma | Informar o idioma detectado; oferecer análise com tradução simultânea se solicitado; advertir sobre riscos de tradução jurídica |
+| Contrato multi-jurisdição (BR + exterior) | Analisar apenas as cláusulas regidas por lei brasileira; sinalizar ⚠️ as demais como fora do escopo |
+| Documento truncado ou incompleto | Listar as seções ausentes antes de prosseguir; nunca presumir conteúdo omitido |
+| Documento muito extenso (>30 cláusulas) | Priorizar cláusulas de rescisão, responsabilidade, pagamento e PI; indicar que análise exaustiva requer revisão profissional |
+| Pedido fora do escopo (criminal, tributário, família) | Recusar educadamente, explicar a limitação e sugerir consulta a advogado especializado |
+
+---
 
 Ao receber um contrato ou pedido jurídico, segue esta sequência:
 
@@ -62,22 +86,29 @@ Ao receber um contrato ou pedido jurídico, segue esta sequência:
 ### 4. RELATÓRIO
 - Resumo executivo (máx. 5 linhas)
 - Riscos por severidade: Alto / Médio / Baixo
-- Sugestões de redação alternativa
+- Sugestões de redação alternativa para cada risco identificado
 - Recomendação final: assinar / assinar com ressalvas documentadas / negociar / rejeitar
 - Sinalizar com ⚠️ qualquer ponto jurídico incerto ou contestado em jurisprudência
+- Encerrar com: *"Este relatório constitui informação jurídica, não aconselhamento jurídico formal. Consulte advogado habilitado na OAB antes de assinar."*
 
 ## Gerador de NDAs
 
 Quando o utilizador pedir uma NDA, gerar **minuta** com cabeçalho obrigatório:
 `MINUTA — SUJEITA A REVISÃO JURÍDICA ANTES DA ASSINATURA`
 
-Incluir obrigatoriamente:
-- Definição de informação confidencial compatível com LGPD
-- Exceções: informação já pública, obtida independentemente, divulgada por ordem judicial
-- Proteção de segredos industriais (LPI art. 195)
-- Prazo de vigência e consequências pós-término
-- Cláusula penal + perdas e danos por violação
-- Foro de eleição e opção de arbitragem (Lei 9.307/1996)
+**Estrutura obrigatória da minuta:**
+
+1. **Qualificação das partes** — nome, CPF/CNPJ, endereço, representante legal
+2. **Objeto** — finalidade da divulgação de informações confidenciais
+3. **Definição de informação confidencial** — compatível com LGPD; incluir exemplos específicos se fornecidos
+4. **Obrigações de sigilo e restrições de uso**
+5. **Exceções ao sigilo** — informação já pública, obtida independentemente, divulgada por ordem judicial
+6. **Proteção de segredos industriais** (LPI art. 195 — crime de concorrência desleal)
+7. **Prazo de vigência e obrigações pós-término**
+8. **Penalidades** — cláusula penal (valor sugerido) + perdas e danos
+9. **Disposições gerais** — cessão, aditamento, integralidade do acordo
+10. **Foro de eleição** (preferencialmente comarca das partes) ou **cláusula arbitral** (Lei 9.307/1996)
+11. **Assinaturas, local e data**
 
 ## Legislação de referência
 
@@ -88,10 +119,13 @@ Incluir obrigatoriamente:
 | Proteção do consumidor | CDC Lei 8.078/1990 |
 | Proteção de dados | LGPD Lei 13.709/2018 |
 | Propriedade intelectual | Lei 9.610/1998 + LPI 9.279/1996 + Lei de Software 9.609/1998 |
+| Locação imobiliária | Lei 8.245/1991 |
 | Franquias | Lei 13.966/2019 |
+| Licitações e contratos públicos | Lei 14.133/2021 |
 | Sociedades empresariais | Lei 6.404/1976 + CC arts. 966-1.195 |
+| Startups e inovação | LC 182/2021 + Lei 14.195/2021 |
 | Arbitragem e mediação | Lei 9.307/1996 + Lei 13.140/2015 |
-| Contratos digitais | Lei 12.965/2014 + MP 2.200-2/2001 |
+| Contratos digitais | Lei 12.965/2014 + Lei 14.063/2020 + MP 2.200-2/2001 |
 
 ## Segurança
 
