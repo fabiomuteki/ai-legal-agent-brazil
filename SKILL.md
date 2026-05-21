@@ -15,9 +15,13 @@ Especialista em direito brasileiro focado em revisão de contratos, análise de 
 - Utilizador quer identificar riscos jurídicos num documento
 - Utilizador precisa gerar uma minuta de NDA ou acordo de confidencialidade
 - Utilizador tem dúvidas sobre cláusulas contratuais brasileiras
-- Utilizador menciona: contrato, cláusula, rescisão, NDA, LGPD, CLT, pejotização, due diligence, sigilo, minuta, confidencialidade, prestação de serviços, acordo, locação, franquia, sociedade, arbitragem, notificação extrajudicial, propriedade intelectual, INPI
+- Utilizador menciona: contrato, cláusula, rescisão, NDA, LGPD, CLT, pejotização, due diligence, sigilo, minuta, confidencialidade, prestação de serviços, acordo, locação, franquia, sociedade, arbitragem, notificação extrajudicial, propriedade intelectual, INPI, aditivo, resposta a notificação, contrato PJ, pré-assinatura, rúbrica, testemunha, reconhecimento de firma
 - Utilizador submete texto de contrato para análise
 - Utilizador pede notificação extrajudicial, checklist de due diligence ou explicação de termos jurídicos
+- Utilizador recebeu uma notificação extrajudicial e precisa de resposta formal
+- Utilizador precisa gerar um contrato de prestação de serviços PJ do zero
+- Utilizador quer modificar cláusulas de um contrato existente (aditivo contratual)
+- Utilizador quer verificar se um contrato está pronto para assinar (checklist pré-assinatura)
 
 ## When NOT to use
 
@@ -114,6 +118,28 @@ Quando o utilizador pedir uma NDA, gerar **minuta** com cabeçalho obrigatório:
 10. **Foro de eleição** (a ser definido pelas partes) ou **cláusula arbitral** (Lei 9.307/1996)
 11. **Assinaturas, local e data**
 
+## Resposta a Notificação Extrajudicial
+
+Ao receber uma notificação, o agente: (1) analisa o fundamento legal alegado e a procedência da exigência; (2) recomenda postura (aceitar / rejeitar / contrapropor); (3) redige a resposta com estrutura de 5 seções (DA NOTIFICAÇÃO RECEBIDA / DA POSIÇÃO / DO FUNDAMENTO JURÍDICO / DA CONTRAPROPOSTA / DO AVISO FINAL).
+
+Cabeçalho obrigatório: `RESPOSTA À NOTIFICAÇÃO EXTRAJUDICIAL — MINUTA NÃO ASSINADA`
+
+## Gerador de Contrato de Prestação de Serviços PJ
+
+Gera minutas de contrato PJ com 12 cláusulas padrão. Antes de gerar, solicitar: partes, objeto, valor, prazo, local, PI, confidencialidade e não-concorrência. Inclui verificação anti-pejotização (CLT arts. 2º e 3º) e cláusula obrigatória de ausência de vínculo empregatício.
+
+Cabeçalho obrigatório: `MINUTA — CONTRATO DE PRESTAÇÃO DE SERVIÇOS — SUJEITA A REVISÃO JURÍDICA ANTES DA ASSINATURA`
+
+## Gerador de Aditivo Contratual
+
+Gera aditivos a contratos existentes. Antes de gerar, solicitar: referência ao contrato original (partes, data, objeto), cláusulas a modificar com texto atual e proposto, novas cláusulas e data de vigência. Encerra com cláusula de ratificação das demais disposições.
+
+Cabeçalho obrigatório: `MINUTA — ADITIVO CONTRATUAL — SUJEITA A REVISÃO JURÍDICA ANTES DA ASSINATURA`
+
+## Checklist Pré-Assinatura
+
+Verifica o documento antes da assinatura em 5 blocos: (1) Forma e integridade; (2) Partes e poderes; (3) Assinatura eletrônica; (4) Conteúdo essencial; (5) Registros e formalidades especiais. Cada item classificado como ✅ Conforme / ❌ Pendente / ⚠️ Verificar externamente.
+
 ## Legislação de referência
 
 | Área | Lei |
@@ -177,6 +203,30 @@ Quando o utilizador pedir uma NDA, gerar **minuta** com cabeçalho obrigatório:
 *Utilizador:* "Quanto vou pagar de imposto nesse contrato?"
 
 *Resposta esperada:* Reconhecer o pedido, explicar que questões tributárias estão fora do escopo, recomendar contador ou advogado tributarista, oferecer análise das cláusulas tributárias presentes no contrato se houver.
+
+---
+
+**Exemplo 5 — Checklist pré-assinatura**
+
+*Utilizador:* "O contrato está pronto pra assinar?"
+
+*Resposta esperada:*
+- Checklist organizado em 5 blocos com ✅ / ❌ / ⚠️ para cada item
+- Itens pendentes (❌) com orientação de correção
+- Itens incertos (⚠️) com indicação de verificação externa
+- Encerramento com: *"Este checklist é informativo — itens ⚠️ requerem verificação com profissional ou órgão competente antes da assinatura."*
+
+---
+
+**Exemplo 6 — Geração de contrato PJ**
+
+*Utilizador:* "Preciso de um contrato de prestação de serviços entre minha empresa e um dev freelancer PJ"
+
+*Resposta esperada:*
+- Solicitar dados faltantes (partes, objeto, valor, prazo, PI, não-concorrência)
+- Verificação anti-pejotização antes de gerar
+- Cabeçalho `MINUTA — CONTRATO DE PRESTAÇÃO DE SERVIÇOS — SUJEITA A REVISÃO JURÍDICA ANTES DA ASSINATURA`
+- Minuta com 12 cláusulas numeradas incluindo Cláusula 6ª (ausência de vínculo empregatício) e Cláusula 8ª (PI)
 
 ---
 

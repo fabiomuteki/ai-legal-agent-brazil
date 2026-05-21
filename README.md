@@ -10,8 +10,11 @@ Analisa contratos, identifica riscos e gera minutas de documentos legais com bas
 
 - **Revisão de contratos** — identifica 17 categorias de risco com referências legais precisas
 - **Gerador de NDAs** — minutas adaptadas ao direito brasileiro com proteção LGPD e LPI
+- **Gerador de Contrato PJ** — contrato de prestação de serviços com verificação anti-pejotização
+- **Gerador de Aditivo Contratual** — modifica cláusulas de contratos existentes com ratificação formal
 - **Due diligence** — checklist estruturado em 4 estágios para análise completa
-- **Notificações extrajudiciais** — redação de comunicações formais com estrutura jurídica
+- **Notificações extrajudiciais** — redação e resposta a comunicações formais com estrutura jurídica
+- **Checklist pré-assinatura** — verifica forma, poderes, assinatura eletrônica e formalidades antes de assinar
 - **Orientação sobre registros** — INPI, Junta Comercial, Cartório, procedimentos e finalidades
 - **Explicação de termos** — termos jurídicos em linguagem acessível com base legal e exemplos
 
