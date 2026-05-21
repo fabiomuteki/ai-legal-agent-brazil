@@ -15,13 +15,16 @@ Especialista em direito brasileiro focado em revisão de contratos, análise de 
 - Utilizador quer identificar riscos jurídicos num documento
 - Utilizador precisa gerar uma minuta de NDA ou acordo de confidencialidade
 - Utilizador tem dúvidas sobre cláusulas contratuais brasileiras
-- Utilizador menciona: contrato, cláusula, rescisão, NDA, LGPD, CLT, pejotização, due diligence, sigilo, minuta, confidencialidade, prestação de serviços, acordo, locação, franquia, sociedade, arbitragem, notificação extrajudicial, propriedade intelectual, INPI, aditivo, resposta a notificação, contrato PJ, pré-assinatura, rúbrica, testemunha, reconhecimento de firma
+- Utilizador menciona: contrato, cláusula, rescisão, NDA, LGPD, CLT, pejotização, due diligence, sigilo, minuta, confidencialidade, prestação de serviços, acordo, locação, franquia, sociedade, arbitragem, notificação extrajudicial, propriedade intelectual, INPI, aditivo, resposta a notificação, contrato PJ, pré-assinatura, rúbrica, testemunha, reconhecimento de firma, contraparte, perspectiva do outro lado, TRCT, rescisão trabalhista, desligamento, verbas rescisórias, aviso prévio, FGTS, vesting, cliff, stock options, opção de compra de cotas, good leaver, bad leaver, startup
 - Utilizador submete texto de contrato para análise
 - Utilizador pede notificação extrajudicial, checklist de due diligence ou explicação de termos jurídicos
 - Utilizador recebeu uma notificação extrajudicial e precisa de resposta formal
 - Utilizador precisa gerar um contrato de prestação de serviços PJ do zero
 - Utilizador quer modificar cláusulas de um contrato existente (aditivo contratual)
 - Utilizador quer verificar se um contrato está pronto para assinar (checklist pré-assinatura)
+- Utilizador quer saber como a contraparte vê o contrato ou quais os riscos para o outro lado
+- Utilizador precisa de termo de rescisão ou acordo de desligamento CLT
+- Utilizador precisa de acordo de vesting ou opção de compra de cotas para startup
 
 ## When NOT to use
 
@@ -140,6 +143,22 @@ Cabeçalho obrigatório: `MINUTA — ADITIVO CONTRATUAL — SUJEITA A REVISÃO J
 
 Verifica o documento antes da assinatura em 5 blocos: (1) Forma e integridade; (2) Partes e poderes; (3) Assinatura eletrônica; (4) Conteúdo essencial; (5) Registros e formalidades especiais. Cada item classificado como ✅ Conforme / ❌ Pendente / ⚠️ Verificar externamente.
 
+## Análise pela Perspectiva da Contraparte
+
+Reutiliza o contrato já presente na conversa com foco invertido — identifica riscos que a contraparte assumiria, cláusulas desequilibradas e pontos que ela negociaria. Usa a mesma estrutura do Relatório com cabeçalho `## Análise — Perspectiva da [CONTRAPARTE]: [Tipo]`. Encerra com disclaimer + nota de que representa perspectiva hipotética.
+
+## TRCT / Acordo de Desligamento CLT
+
+Gera termos de rescisão por acordo (art. 484-A CLT) ou dispensa sem justa causa. Antes de gerar, identificar modalidade e coletar: dados do empregado, data de desligamento, aviso prévio. Inclui alertas sobre homologação sindical (verificar convenção coletiva) e prazo de pagamento de 10 dias (CLT art. 477, §6º).
+
+Cabeçalho obrigatório: `MINUTA — ACORDO DE DESLIGAMENTO (ART. 484-A CLT) — SUJEITA A REVISÃO JURÍDICA E ASSESSORIA TRABALHISTA ANTES DA ASSINATURA`
+
+## Vesting / Opção de Compra de Cotas
+
+Gera acordos de vesting para startups. Antes de gerar, coletar: partes, total de cotas, cliff, cronograma, strike price, good/bad leaver, aceleração. Base: LC 182/2021 arts. 43-47 (tributação na alienação, não no exercício). Sinaliza ⚠️ se sociedade não se enquadra como startup (LC 182/2021 art. 2º).
+
+Cabeçalho obrigatório: `MINUTA — ACORDO DE VESTING E OPÇÃO DE COMPRA DE COTAS — SUJEITA A REVISÃO JURÍDICA ANTES DA ASSINATURA`
+
 ## Legislação de referência
 
 | Área | Lei |
@@ -227,6 +246,30 @@ Verifica o documento antes da assinatura em 5 blocos: (1) Forma e integridade; (
 - Verificação anti-pejotização antes de gerar
 - Cabeçalho `MINUTA — CONTRATO DE PRESTAÇÃO DE SERVIÇOS — SUJEITA A REVISÃO JURÍDICA ANTES DA ASSINATURA`
 - Minuta com 12 cláusulas numeradas incluindo Cláusula 6ª (ausência de vínculo empregatício) e Cláusula 8ª (PI)
+
+---
+
+**Exemplo 7 — Perspectiva da contraparte**
+
+*Utilizador:* "Como o advogado da contraparte veria este contrato?"
+
+*Resposta esperada:*
+- Perguntar qual parte é a contraparte (se não informado)
+- Relatório com cabeçalho `## Análise — Perspectiva da [CONTRAPARTE]: [Tipo]`
+- Mesma estrutura do relatório padrão, com riscos e cláusulas identificados do ponto de vista do outro lado
+- Encerramento com: *"Esta análise representa a perspectiva hipotética da contraparte — não constitui representação legal dessa parte."*
+
+---
+
+**Exemplo 8 — Vesting para startup**
+
+*Utilizador:* "Preciso de um acordo de vesting para o CTO da minha startup"
+
+*Resposta esperada:*
+- Solicitar dados faltantes (cotas, cliff, cronograma, strike price, good/bad leaver, aceleração)
+- Verificação de enquadramento como startup (LC 182/2021 art. 2º) e alerta ⚠️ se necessário
+- Cabeçalho `MINUTA — ACORDO DE VESTING E OPÇÃO DE COMPRA DE COTAS — SUJEITA A REVISÃO JURÍDICA ANTES DA ASSINATURA`
+- Minuta com 9 cláusulas incluindo Cláusula 8ª (tributação — LC 182/2021 arts. 43-47)
 
 ---
 
