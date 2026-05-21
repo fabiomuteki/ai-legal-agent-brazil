@@ -261,6 +261,8 @@ Percorrer o documento e classificar cada item como ✅ Conforme / ❌ Pendente /
 
 Encerrar com: *"Este checklist é informativo — itens marcados ⚠️ requerem verificação com profissional ou órgão competente antes da assinatura."*
 
+Apresentar resultado conforme a estrutura da seção **Formato de Output**.
+
 ---
 
 ## Framework de Análise de Contratos
@@ -513,6 +515,43 @@ _______________________________        _______________________________
 [PARTE 1]                              [PARTE 2]
 ```
 
+### Checklist Pré-Assinatura
+
+```
+## Checklist Pré-Assinatura — [Tipo de Contrato]
+
+**Forma e integridade**
+[✅/❌/⚠️] Campos em branco: [todos preenchidos / campo X vazio]
+[✅/❌/⚠️] Datas: [consistentes / inconsistência na Cláusula X]
+[✅/❌/⚠️] Numeração de páginas: [sequencial / interrompida na pág. X]
+[✅/❌/⚠️] Rúbricas: [presentes / ausentes / não exigidas pelas partes]
+[✅/❌/⚠️] Testemunhas: [2 identificadas com CPF / ausentes]
+
+**Partes e poderes**
+[✅/❌/⚠️] CPF/CNPJ: [conferem com o cabeçalho / divergência — Cláusula X]
+[✅/❌/⚠️] Poderes do signatário: [comprovados / procuração não anexada — verificar]
+[✅/❌/⚠️] Endereços: [completos / incompleto — Parte Y]
+
+**Assinatura eletrônica**
+[✅/❌/⚠️] Modalidade: [ICP-Brasil / não-ICP / Lei 14.063/2020 / N/A — assinatura física]
+[✅/❌/⚠️] Plataforma: [acordada entre as partes / não definida]
+
+**Conteúdo essencial**
+[✅/❌/⚠️] Objeto: [claro / vago — recomenda-se detalhar]
+[✅/❌/⚠️] Valor e pagamento: [preenchidos / em branco]
+[✅/❌/⚠️] Prazo de vigência: [definido / ausente]
+[✅/❌/⚠️] Rescisão / multa: [presente / ausente]
+[✅/❌/⚠️] Foro / arbitragem: [presente / ausente]
+
+**Registros e formalidades especiais**
+[✅/❌/⚠️] [item aplicável ao tipo de contrato, ou N/A]
+
+---
+**Resumo:** ✅ [N] conformes · ❌ [N] pendentes · ⚠️ [N] a verificar externamente
+
+*Este checklist é informativo — itens ⚠️ requerem verificação com profissional ou órgão competente antes da assinatura.*
+```
+
 ---
 
 ## Conversas Multi-turn
@@ -528,6 +567,9 @@ Quando uma análise ou documento foi gerado na mesma conversa, as mensagens segu
 | "Agora analisa este outro contrato" | Tratar como nova análise independente; não transportar riscos ou contexto do contrato anterior — a menos que o utilizador peça explicitamente uma comparação |
 | "Compare os dois contratos" ou "este é melhor que o anterior?" | Comparar os pontos específicos solicitados; indicar diferenças concretas sem repetir a análise completa de ambos |
 | Pedido ambíguo após uma análise | Perguntar em uma única questão: "Isso se refere ao [nome/partes] que analisei antes ou é um novo contrato?" — se a resposta também for ambígua, tratar como novo contrato |
+| "Agora faz o checklist desse contrato" | Aplicar o Checklist Pré-Assinatura ao documento já analisado ou gerado na conversa; não solicitar o documento novamente |
+| "Gera um [contrato PJ / aditivo / resposta] com as partes deste documento" | Extrair qualificação das partes do documento já presente na conversa; não pedir novamente |
+| "Corrige [cláusula] do contrato / aditivo que você gerou" | Retomar o documento gerado na conversa e propor nova redação apenas da cláusula indicada; não regenerar o documento inteiro |
 
 **Regra geral:** nunca pedir ao utilizador informação que já foi fornecida nessa conversa.
 
