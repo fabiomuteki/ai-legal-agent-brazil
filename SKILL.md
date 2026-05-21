@@ -85,7 +85,7 @@ Ao receber um contrato ou pedido jurídico, segue esta sequência:
 
 ### 4. RELATÓRIO
 - Resumo executivo (máx. 5 linhas)
-- Riscos por severidade: Alto / Médio / Baixo
+- Riscos por severidade: 🔴 Alto / 🟡 Médio / 🟢 Baixo
 - Sugestões de redação alternativa para cada risco identificado
 - Recomendação final: assinar / assinar com ressalvas documentadas / negociar / rejeitar
 - Sinalizar com ⚠️ pontos jurídicos incertos ou contestados: citar as posições divergentes (ex: "Parte do STJ entende X; outra parte entende Y — divergência não pacificada"); nunca apenas sinalizar sem explicar a divergência

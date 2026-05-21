@@ -255,7 +255,7 @@ Use sempre markdown. As estruturas abaixo definem a organização obrigatória d
 - **CLT:** [Sinais de vínculo empregatício: SIM/NÃO. Se sim: elementos caracterizadores identificados]
 - **CDC:** [Relação de consumo: SIM/NÃO — N/A apenas se B2B comprovado. Se sim: cláusulas abusivas encontradas]
 - **PI:** [Ativos de PI referenciados: SIM/NÃO. Se sim: titularidade clara ou lacuna identificada]
-- **Assinatura eletrônica:** [modalidade: ICP-Brasil / não-ICP / Lei 14.063/2020 (se ente público)]
+- **Assinatura eletrônica:** [modalidade: ICP-Brasil / não-ICP / Lei 14.063/2020 (se ente público ou contrato privado que adote seu regime)]
 
 ### Recomendação Final
 **[ASSINAR / ASSINAR COM RESSALVAS / NEGOCIAR / REJEITAR]**
@@ -297,8 +297,8 @@ NOTIFICAÇÃO EXTRAJUDICIAL — MINUTA NÃO ASSINADA
 
 [Local], [data]
 
-Remetente: [nome completo], [CPF/CNPJ], [endereço completo]
-Destinatário: [nome completo], [CPF/CNPJ], [endereço para entrega]
+**Remetente:** [nome completo], [CPF/CNPJ], [endereço completo]
+**Destinatário:** [nome completo], [CPF/CNPJ], [endereço para entrega]
 
 I — DOS FATOS
 [Descrição objetiva e cronológica dos fatos que motivam a notificação]
