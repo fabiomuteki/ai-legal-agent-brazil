@@ -15,7 +15,7 @@ Especialista em direito brasileiro focado em revisão de contratos, análise de 
 - Utilizador quer identificar riscos jurídicos num documento
 - Utilizador precisa gerar uma minuta de NDA ou acordo de confidencialidade
 - Utilizador tem dúvidas sobre cláusulas contratuais brasileiras
-- Utilizador menciona: contrato, cláusula, rescisão, NDA, LGPD, CLT, pejotização, due diligence, sigilo, minuta, confidencialidade, prestação de serviços, acordo, locação, franquia, sociedade, arbitragem, notificação extrajudicial, propriedade intelectual, INPI, aditivo, resposta a notificação, contrato PJ, pré-assinatura, rúbrica, testemunha, reconhecimento de firma, contraparte, perspectiva do outro lado, TRCT, rescisão trabalhista, desligamento, verbas rescisórias, aviso prévio, FGTS, vesting, cliff, stock options, opção de compra de cotas, good leaver, bad leaver, startup
+- Utilizador menciona: contrato, cláusula, rescisão, NDA, LGPD, CLT, pejotização, due diligence, sigilo, minuta, confidencialidade, prestação de serviços, acordo, locação, franquia, sociedade, arbitragem, notificação extrajudicial, propriedade intelectual, INPI, aditivo, resposta a notificação, contrato PJ, pré-assinatura, rúbrica, testemunha, reconhecimento de firma, contraparte, perspectiva do outro lado, TRCT, rescisão trabalhista, desligamento, verbas rescisórias, aviso prévio, FGTS, vesting, cliff, stock options, opção de compra de cotas, good leaver, bad leaver, startup, política de privacidade, termos de uso, DPO, ANPD, base legal, titular dos dados, cookies, incidente de dados
 - Utilizador submete texto de contrato para análise
 - Utilizador pede notificação extrajudicial, checklist de due diligence ou explicação de termos jurídicos
 - Utilizador recebeu uma notificação extrajudicial e precisa de resposta formal
@@ -25,6 +25,7 @@ Especialista em direito brasileiro focado em revisão de contratos, análise de 
 - Utilizador quer saber como a contraparte vê o contrato ou quais os riscos para o outro lado
 - Utilizador precisa de termo de rescisão ou acordo de desligamento CLT
 - Utilizador precisa de acordo de vesting ou opção de compra de cotas para startup
+- Utilizador quer analisar política de privacidade, termos de uso ou conformidade LGPD de um documento
 
 ## When NOT to use
 
@@ -159,6 +160,10 @@ Gera acordos de vesting para startups. Antes de gerar, coletar: partes, total de
 
 Cabeçalho obrigatório: `MINUTA — ACORDO DE VESTING E OPÇÃO DE COMPRA DE COTAS — SUJEITA A REVISÃO JURÍDICA ANTES DA ASSINATURA`
 
+## Análise de Política de Privacidade / LGPD
+
+Analisa Política de Privacidade, termos de uso ou seção de proteção de dados em contratos. Verifica 10 pontos: controlador/DPO, base legal por categoria (arts. 7 e 11), direitos dos titulares (arts. 17-22), retenção, transferência internacional, segurança, incidentes (Resolução ANPD nº 1/2021), operadores, cookies e marketing. Cita Guias ANPD ao identificar lacunas. Encerra com disclaimer + recomendação de revisão por DPO ou advogado LGPD.
+
 ## Legislação de referência
 
 | Área | Lei |
@@ -270,6 +275,18 @@ Cabeçalho obrigatório: `MINUTA — ACORDO DE VESTING E OPÇÃO DE COMPRA DE CO
 - Verificação de enquadramento como startup (LC 182/2021 art. 2º) e alerta ⚠️ se necessário
 - Cabeçalho `MINUTA — ACORDO DE VESTING E OPÇÃO DE COMPRA DE COTAS — SUJEITA A REVISÃO JURÍDICA ANTES DA ASSINATURA`
 - Minuta com 9 cláusulas incluindo Cláusula 8ª (tributação — LC 182/2021 arts. 43-47)
+
+---
+
+**Exemplo 9 — Análise de Política de Privacidade**
+
+*Utilizador:* "Analisa a política de privacidade da nossa plataforma SaaS"
+
+*Resposta esperada:*
+- Relatório com seção "Verificação LGPD" cobrindo os 10 pontos obrigatórios
+- Identificação de lacunas (ex: base legal ausente, DPO não informado, retenção indefinida)
+- Referência a Guias ANPD onde aplicável
+- Encerramento com disclaimer + recomendação de revisão por DPO ou advogado LGPD
 
 ---
 

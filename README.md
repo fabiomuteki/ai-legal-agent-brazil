@@ -15,6 +15,7 @@ Analisa contratos, identifica riscos e gera minutas de documentos legais com bas
 - **Due diligence** — checklist estruturado em 4 estágios para análise completa
 - **Notificações extrajudiciais** — redação e resposta a comunicações formais com estrutura jurídica
 - **Checklist pré-assinatura** — verifica forma, poderes, assinatura eletrônica e formalidades antes de assinar
+- **Análise de Política de Privacidade / LGPD** — verifica 10 pontos de conformidade com referência a guias e decisões ANPD
 - **Análise pela perspectiva da contraparte** — reanálise do contrato pelo ângulo do outro lado da negociação
 - **TRCT / Acordo de Desligamento CLT** — rescisão por acordo (art. 484-A CLT) e dispensa sem justa causa
 - **Vesting / Opção de Compra de Cotas** — acordos de vesting para startups com base na LC 182/2021
